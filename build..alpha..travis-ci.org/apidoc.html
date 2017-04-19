@@ -61,12 +61,49 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.rootpath">module rootpath</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.rootpath.rootpath">
+            function <span class="apidocSignatureSpan"></span>rootpath
+            <span class="apidocSignatureSpan">(filePath)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.rootpath" id="apidoc.module.rootpath">module rootpath</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.rootpath.rootpath" id="apidoc.element.rootpath.rootpath">
+        function <span class="apidocSignatureSpan"></span>rootpath
+        <span class="apidocSignatureSpan">(filePath)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">rootpath = function (filePath) {
+  var orig, p, root, stat;
+  p = filePath || path.join(__filename, &#x27;../../&#x27;);
+  stat = fs.lstatSync(p);
+  if (stat.isSymbolicLink()) {
+    p = fs.readlinkSync(p);
+  }
+  root = path.dirname(p);
+  orig = process.env.NODE_PATH ? process.env.NODE_PATH : &#x27;&#x27;;
+  if (filePath) {
+    process.env.NODE_PATH = path.join(root, &#x27;../libs&#x27;) + path.delimiter + orig;
+  } else {
+    process.env.NODE_PATH = root + path.delimiter + orig;
+  }
+  return require(&#x27;module&#x27;)._initPaths();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
