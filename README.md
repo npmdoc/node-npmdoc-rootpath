@@ -1,9 +1,14 @@
-# api documentation for  [rootpath (v0.1.2)](https://github.com/fabriziomoscon/rootpath)  [![npm package](https://img.shields.io/npm/v/npmdoc-rootpath.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-rootpath) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-rootpath.svg)](https://travis-ci.org/npmdoc/node-npmdoc-rootpath)
+# npmdoc-rootpath
+
+#### api documentation for  [rootpath (v0.1.2)](https://github.com/fabriziomoscon/rootpath)  [![npm package](https://img.shields.io/npm/v/npmdoc-rootpath.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-rootpath) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-rootpath.svg)](https://travis-ci.org/npmdoc/node-npmdoc-rootpath)
+
 #### Little helper to make node.js require relative to your project root
 
-[![NPM](https://nodei.co/npm/rootpath.png?downloads=true)](https://www.npmjs.com/package/rootpath)
+[![NPM](https://nodei.co/npm/rootpath.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/rootpath)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-rootpath/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-rootpath_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-rootpath/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-rootpath/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-rootpath/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-rootpath/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-rootpath/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-rootpath/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Fabrizio Moscon",
-        "email": "mosconfabrizio@gmail.com"
+        "name": "Fabrizio Moscon"
     },
     "bugs": {
         "url": "https://github.com/fabriziomoscon/rootpath/issues"
@@ -44,18 +48,15 @@
     "main": "./pathSetup.js",
     "maintainers": [
         {
-            "name": "fabmos",
-            "email": "moscconfabrizio@gmail.com"
+            "name": "fabmos"
         },
         {
-            "name": "sandfox",
-            "email": "james.butler@sandfox.co.uk"
+            "name": "sandfox"
         }
     ],
     "name": "rootpath",
     "optionalDependencies": {},
     "preferGlobal": false,
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/fabriziomoscon/rootpath.git"
@@ -66,16 +67,6 @@
     "version": "0.1.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module rootpath](#apidoc.module.rootpath)
-
-
-
-# <a name="apidoc.module.rootpath"></a>[module rootpath](#apidoc.module.rootpath)
 
 
 
