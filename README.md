@@ -1,6 +1,6 @@
 # npmdoc-rootpath
 
-#### api documentation for  [rootpath (v0.1.2)](https://github.com/fabriziomoscon/rootpath)  [![npm package](https://img.shields.io/npm/v/npmdoc-rootpath.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-rootpath) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-rootpath.svg)](https://travis-ci.org/npmdoc/node-npmdoc-rootpath)
+#### basic api documentation for  [rootpath (v0.1.2)](https://github.com/fabriziomoscon/rootpath)  [![npm package](https://img.shields.io/npm/v/npmdoc-rootpath.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-rootpath) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-rootpath.svg)](https://travis-ci.org/npmdoc/node-npmdoc-rootpath)
 
 #### Little helper to make node.js require relative to your project root
 
@@ -64,7 +64,8 @@
     "scripts": {
         "test": "cd test && ../node_modules/.bin/mocha ."
     },
-    "version": "0.1.2"
+    "version": "0.1.2",
+    "bin": {}
 }
 ```
 
